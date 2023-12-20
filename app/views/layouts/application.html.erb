@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <%= inertia_headers %>
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= vite_client_tag %>
+    <%= vite_javascript_tag 'browser', defer: true %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

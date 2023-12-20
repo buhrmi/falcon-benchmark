@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "@iconify/json": "^2.2.160",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@unocss/svelte-scoped": "^0.58.0",
+    "svelte": "^4.2.8",
+    "svelte-preprocess-import-assets": "^1.1.0",
+    "unocss": "^0.58.0",
+    "vite": "^5.0.10",
+    "vite-plugin-ruby": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@inertiajs/svelte": "^1.0.14",
+    "@unocss/extractor-svelte": "^0.58.0",
+    "deepmerge": "^4.3.1",
+    "lodash.isequal": "^4.5.0",
+    "nprogress": "^0.2.0",
+    "qs": "^6.11.2"
+  },
+  "scripts": {
+    "build": "vite build --outDir public"
+  }
+}

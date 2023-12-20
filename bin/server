@@ -1,0 +1,6 @@
+#!/bin/sh
+
+./bin/rails db:prepare
+./bin/rails db:seed
+node ./public/vite-ssr/ssr.js &
+bundle exec falcon host

@@ -1,0 +1,3 @@
+[submodule "app/frontend/lib/inertia"]
+	path = app/frontend/lib/inertia
+	url = git@github.com:buhrmi/inertia.git
